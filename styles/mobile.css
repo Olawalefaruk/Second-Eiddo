@@ -273,10 +273,6 @@ main h2 {
   display: none;
 }
 
-.first-main-container-mobile {
-
-}
-
 .image-text-main-container {
   display: flex;
   flex-direction: column;
@@ -299,7 +295,7 @@ main h2 {
 }
 
 .second-main-container {
-  display: none !important;
+  display: none;
 }
 
 .third-main-container {
@@ -401,6 +397,9 @@ main h2 {
 .main-video-container img {
   width: 2.25rem;
   height: 2.25rem;
+}
+.main-video-container img:hover {
+  cursor: pointer;
 }
 
 aside {

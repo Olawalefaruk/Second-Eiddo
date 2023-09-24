@@ -37,6 +37,7 @@
       </ul>
 
       <div class="nav-button-div">
+        <img src="icons/search-icon.svg" alt="search icon">
         <button type="button" class="desktop-nav-button">
           Sign in
         </button>
@@ -68,7 +69,7 @@
           </div>
 
           <div class="input-div-combine">
-            <input type="text" placeholder="Search Address, City">
+            <input type="text" placeholder="Search Address, City, Postcode, Agent">
             
             <!-- mobile button -->
             <button class="mobile-header-button">
@@ -159,9 +160,12 @@
   </header>
 
   <main>
-    <h2>
-      Choose an apartment
-    </h2>
+
+    <div class="main-heading-container">
+      <h2>
+        Choose an apartment
+      </h2>
+    </div>
 
     <!-- for mobile view -->
     <div class="first-main-container-mobile">
@@ -213,6 +217,7 @@
       </div>
     </div>
     
+    <!-- for desktop view only -->
     <div class="second-main-container">
       <div class="second-main-text-container">
         <h5>
@@ -287,9 +292,11 @@
       </div>
     </div>
     
-    <h2>
-      Trusted by global brands
-    </h2>
+    <div class="main-heading-container">
+      <h2>
+        Trusted by global brands
+      </h2>
+    </div>
 
     <!-- Logo arrangement for mobile -->
     <div class="fourth-main-container-mobile">
@@ -347,9 +354,9 @@
     </h4>
     <div class="aside-minor-container">
         <img src="icons/arrow-left-icon.svg" alt="left arrow icon">
-      <p>
-        “My real estate investment has been easier to handle because it’s an asset class that seems less impacted by the crazy world we live in than the stock market.”
-      </p>
+        <p>
+          “My real estate investment has been easier to handle because it’s an asset class that seems less impacted by the crazy world we live in than the stock market.”
+        </p>
         <img src="icons/arrow-right-icon.svg" alt="left arrow icon">
     </div>
     <div class="profile-container">
@@ -400,8 +407,14 @@
 
       <input type="name" placeholder="First Name*">
       <input type="email" placeholder="Email">
-      <input type="text" placeholder="DD/MM/YYYY">
-      <input type="text" placeholder="Time">
+      <div class="input-mini">
+        <div class="input-date">
+          <input type="text" placeholder="DD/MM/YYYY">
+        </div>
+        <div class="input-time">
+          <input type="text" placeholder="Time">
+        </div>
+      </div>
       <textarea name="text" id="message-textarea" cols="30" rows="10" placeholder="Message"></textarea>
 
       <button>
@@ -434,8 +447,7 @@
             Explore
           </p>
           <ul>
-            <li><a href="#">Multi Family</a></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="#">Multi Family Home</a></li>
             <li><a href="#">Apartment</a></li>
             <li><a href="#">House</a></li>
             <li><a href="#">Condo</a></li>
