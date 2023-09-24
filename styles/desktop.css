@@ -1,0 +1,65 @@
+
+
+.mobile-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.13rem;
+}
+
+.eiddo-logo {
+  width: 6.75rem;
+  height: 2rem; 
+}
+
+.menu-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.nav-minor-combine {
+
+}
+
+.nav-minor-combine ul {
+
+}
+
+.nav-minor-combine ul a {
+
+}
+
+.nav-minor-combine ul a img {
+
+}
+
+.nav-button-div {
+
+}
+
+.desktop-nav-button {
+
+}
+
+
+
+.second-main-container {
+  display: none !important;
+}
+
+.second-main-text-container {
+  
+}
+
+.second-main-text-container h5 {
+
+}
+
+.second-main-text-container p {
+
+}

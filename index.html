@@ -1,0 +1,533 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eiddo.</title>
+  
+  <link rel="stylesheet" href="styles/mobile.css">
+  <link rel="stylesheet" href="styles/desktop.css">
+
+  <!-- fonts downloaded from google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+  <!-- nav bar for the mobile view -->
+  <nav class="mobile-nav">
+    <img class="eiddo-logo" src="logos/Eiddo-logo.png" alt="eiddo logo">
+    <img class="menu-icon" src="icons/menu-icon.svg" alt="menu icon">
+  </nav>
+
+  <!-- nav bar for the desktop view -->
+  <nav class="desktop-nav">
+    <img class="eiddo-logo" src="logos/Eiddo-logo.png" alt="eiddo logo">
+    
+    <div class="nav-minor-combine">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Property</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pages <img src="icons/arrow-down-icon.svg" alt="arrow down icon"></a></li>
+      </ul>
+
+      <div class="nav-button-div">
+        <button type="button" class="desktop-nav-button">
+          Sign in
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="first-header-container">
+      <div class="first-header-text-form-container">
+        <h1>
+          residence
+        </h1>
+        <p>
+          Introducing a new way to showcase properties
+        </p>
+
+        <div class="first-header-form-container">
+          <div class="first-container">
+            <div class="first-container-mini-1">
+              Buy
+            </div>
+            <div class="first-container-mini-2 special-1">
+              Rent
+            </div>
+            <div class="first-container-mini-2 special-2">
+              Sold
+            </div>
+          </div>
+
+          <div class="input-div-combine">
+            <input type="text" placeholder="Search Address, City">
+            
+            <!-- mobile button -->
+            <button class="mobile-header-button">
+              <img src="icons/search-icon.svg" alt="search icon">
+            </button>
+
+            <!-- Desktop button -->
+            <button class="desktop-header-button">
+              <img src="icons/search-icon.svg" alt="search icon">
+              Search Places
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="first-header-image-container">
+        <img src="images/first-header-image.png" alt="building image">
+      </div>
+    </div>
+
+    <div class="second-header-container">
+      <div class="second-header-image-container">
+        <div class="first-image">
+          <img src="images/first-image.png" alt="room image">
+        </div>
+        <div class="second-image">
+          <img src="images/second-image.png" alt="room image">
+        </div>
+        <div class="third-image">
+          <img src="images/third-image.png" alt="room image">
+        </div>
+      </div>
+      <div class="second-header-text-container">
+        <h2>
+          Eiddo Better. Access Diversification, Passive Income, and Potential Tax Savings.
+        </h2>
+        <p>
+          Investing in multifamily real estate gives you benefits that you can’t get with other investments. These benefits include not being as closely tied to the stock market, quarterly cash flow distributions, appreciation of the assets, and other unique income opportunities associated with real estate. On top of that, you get access to potential tax savings through depreciation, meaning you could pay less in taxes.
+        </p>
+      </div>
+    </div>
+    <div class="third-header-container">
+      <div class="third-header-text-container">
+        <h3>
+          412
+        </h3>
+        <p>
+          Square areas
+        </p>
+      </div>
+      <div class="third-header-divider">
+        <!-- a dividing line -->
+      </div>
+
+      <div class="third-header-text-container">
+        <h3>
+          785
+        </h3>
+        <p>
+          car parking
+        </p>
+      </div>
+      <div class="third-header-divider">
+        <!-- a dividing line -->
+      </div>
+
+      <div class="third-header-text-container">
+        <h3>
+          180
+        </h3>
+        <p>
+          Apartment
+        </p>
+      </div>
+      <div class="third-header-divider">
+        <!-- a dividing line -->
+      </div>
+
+      <div class="third-header-text-container">
+        <h3>
+          262
+        </h3>
+        <p>
+          Rooms
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h2>
+      Choose an apartment
+    </h2>
+
+    <!-- for mobile view -->
+    <div class="first-main-container-mobile">
+      <div class="image-text-main-container mySlides fade">
+        <img src="images/second-image.png" alt="room image">
+        <h6>
+          west complex
+        </h6>
+      </div>
+      <div class="image-text-main-container mySlides fade">
+        <img src="images/third-image.png" alt="room image">
+        <h6>
+          apartment block
+        </h6>
+      </div>
+      <div class="image-text-main-container mySlides fade">
+        <img src="images/main-image.png" alt="room image">
+        <h6>
+          east complex
+        </h6>
+      </div>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+
+    <!-- for the desktop view -->
+    <div class="first-main-container-desktop">
+      <div class="image-text-main-container">
+        <img src="images/second-image.png" alt="room image">
+        <h6>
+          west complex
+        </h6>
+      </div>
+      <div class="image-text-main-container">
+        <img src="images/third-image.png" alt="room image">
+        <h6>
+          apartment block
+        </h6>
+      </div>
+      <div class="image-text-main-container">
+        <img src="images/main-image.png" alt="room image">
+        <h6>
+          east complex
+        </h6>
+      </div>
+    </div>
+    
+    <div class="second-main-container">
+      <div class="second-main-text-container">
+        <h5>
+          smart living
+        </h5>
+        <p>
+          When you invest, you’ll have an equity stake in a collection of properties without the hassle of purchasing and managing it yourself.
+        </p>
+      </div>
+      <div class="second-main-text-container">
+        <h5>
+          modern technology
+        </h5>
+        <p>
+          When you invest, you’ll have an equity stake in a collection of properties without the hassle of purchasing and managing it yourself.
+        </p>
+      </div>
+      <div class="second-main-text-container">
+        <h5>
+          human in mind
+        </h5>
+        <p>
+          When you invest, you’ll have an equity stake in a collection of properties without the hassle of purchasing and managing it yourself.
+        </p>
+      </div>
+      <div class="second-main-text-container">
+        <h5>
+          attractive location
+        </h5>
+        <p>
+          When you invest, you’ll have an equity stake in a collection of properties without the hassle of purchasing and managing it yourself.
+        </p>
+      </div>
+      <div class="second-main-text-container">
+        <h5>
+          eco construction
+        </h5>
+        <p>
+          When you invest, you’ll have an equity stake in a collection of properties without the hassle of purchasing and managing it yourself.
+        </p>
+      </div>
+      <div class="second-main-text-container">
+        <h5>
+          awarded design
+        </h5>
+        <p>
+          When you invest, you’ll have an equity stake in a collection of properties without the hassle of purchasing and managing it yourself.
+        </p>
+      </div>
+    </div>
+
+    <div class="third-main-container">
+      <div class="third-main-text-container">
+        <h2>
+          Modern Spaces and Premium Apartment Complexes
+        </h2>
+        <p class="first-p">
+          Welcome to Eiddo Residence Showcase
+        </p>
+        <p class="second-p">
+          When you invest, you’ll have an equity stake in a collection of properties without the hassle of purchasing and managing it yourself.
+        </p>
+      </div>
+
+      <div class="third-main-image-container">
+        <div class="first-image-container">
+          <img src="images/main-image-1.png" alt="room image">
+        </div>
+        <div class="second-image-container">
+          <img src="images/main-image-2.png" alt="room image">
+        </div>
+      </div>
+    </div>
+    
+    <h2>
+      Trusted by global brands
+    </h2>
+
+    <!-- Logo arrangement for mobile -->
+    <div class="fourth-main-container-mobile">
+      <div class="logo-container">
+        <img src="logos/u-turn-logo.png" alt="u-turn logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/nextmove-logo.png" alt=" nextmove logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/recharge-logo.png" alt="recharge logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/hitech-logo.png" alt="hitech logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/vision-logo.png" alt="vision logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/umbrella-logo.png" alt="umbrella logo">
+      </div>
+    </div>
+
+    <!-- Logo arrangement for desktop -->
+    <div class="fourth-main-container-desktop">
+      <div class="logo-container">
+        <img src="logos/vision-logo.png" alt="vision logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/u-turn-logo.png" alt="u-turn logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/nextmove-logo.png" alt="nextmove logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/recharge-logo.png" alt="recharge logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/hitech-logo.png" alt="hitech logo">
+      </div>
+      <div class="logo-container">
+        <img src="logos/umbrella-logo.png" alt="umbrella logo">
+      </div>
+    </div>
+
+    <div class="main-video-container">
+      <img src="icons/play-icon.png" alt="play icon">
+    </div>
+  </main>
+
+  <aside>
+    <img src="icons/qoute-icon.png" alt="quote icon">
+    <h4>
+      testimonials
+    </h4>
+    <div class="aside-minor-container">
+        <img src="icons/arrow-left-icon.svg" alt="left arrow icon">
+      <p>
+        “My real estate investment has been easier to handle because it’s an asset class that seems less impacted by the crazy world we live in than the stock market.”
+      </p>
+        <img src="icons/arrow-right-icon.svg" alt="left arrow icon">
+    </div>
+    <div class="profile-container">
+      <div class="profile-image-container">
+        <img src="images/profile-image.png" alt="profile image">
+      </div>
+      <h5>
+        Foysal Khan
+      </h5>
+      <p>
+        Architect
+      </p>
+    </div>
+  </aside>
+
+  <section>
+    <h2>
+      Stylish News from Our Blog Read, Enjoy & Learn
+    </h2>
+    <div class="section-container-combine">
+      <div class="section-image-text-container">
+        <img src="images/section-first-image.png" alt="room image">
+        <h4>
+          7 Reasons to Buy a New Construction Home
+        </h4>
+        <p>
+          If you are in the market for a new home, you might be weighing whether to buy a resale home or a new construction home. Buying a new construction home may be well within your reach today....
+        </p>
+      </div>
+
+      <div class="section-image-text-container">
+        <img src="images/secotion-second-image.png" alt="room image">
+        <h4>
+          How Much Home Can You Afford?
+        </h4>
+        <p>
+          If you are in the market for a new home, you might be weighing whether to buy a resale home or a new construction home. Buying a new construction home may be well within your reach today....
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <article>
+    <div class="article-form-container">
+      <h5>
+        Request a Visit
+      </h5>
+
+      <input type="name" placeholder="First Name*">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="DD/MM/YYYY">
+      <input type="text" placeholder="Time">
+      <textarea name="text" id="message-textarea" cols="30" rows="10" placeholder="Message"></textarea>
+
+      <button>
+        Contact
+      </button>
+    </div>
+
+    <div class="article-image-container">
+      <img src="images/article-image.png" alt="room image">
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top-div">
+      <div class="white-box"></div>
+      <div>
+        <p class="footer-top-div-p">
+          Eiddo is a powerful booking platform that lets you run a residential or commercial rental business online with no hassle
+        </p>
+      </div>
+    </div>
+    <div class="footer-line-div">
+      <!-- A dividing line -->
+    </div>
+
+    <div class="footer-text-container-combine">
+      <div class="footer-text-mini-container">
+        <div class="footer-first-text-container">
+          <p class="footer-text-header">
+            Explore
+          </p>
+          <ul>
+            <li><a href="#">Multi Family</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Apartment</a></li>
+            <li><a href="#">House</a></li>
+            <li><a href="#">Condo</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Offices</a></li>
+          </ul>
+        </div>
+        <div class="footer-second-text-container">
+          <p class="footer-text-header">
+            Company
+          </p>
+          <ul>
+            <li><a href="#">Blog and Press</a></li>
+            <li><span><a href="#">Listings</a></span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-third-text-container">
+        <p class="footer-text-header">
+          Contact Us
+        </p>
+        <div class="footer-third-mini-container">
+          <img src="icons/footer-location-icon.svg" alt="location icon">
+          <p>
+            142 Bay Rd, Miami Beach, FL 33139
+          </p>
+        </div>
+        <div class="footer-third-mini-container">
+          <img src="icons/footer-call-icon.svg" alt="call icon">
+          <p>
+            000 000 0000
+          </p>
+        </div>
+        <div class="footer-third-mini-container">
+          <img src="icons/footer-phone-icon.svg" alt="phone icon">
+          <p>
+            +0 000 000 000
+          </p>
+        </div>
+        <div class="footer-third-mini-container">
+          <img src="icons/footer-mail-icon.svg" alt="mail icon">
+          <p>
+            email1234@email.com
+          </p>
+        </div>
+      </div>
+      <div class="footer-fourth-text-container">
+        <p class="footer-fourth-text-first-p">
+          Subscribe to my newsletter
+        </p>
+        <p class="footer-fourth-text-second-p">
+          Choose from different template and lay them out.
+        </p>
+        <input type="text" placeholder="Enter your email...." class="email-input">
+        <button type="button">
+          Subscribe
+        </button>
+      </div>
+    </div>
+
+    <div class="footer-line-div">
+      <!-- A dividing line -->
+    </div>
+
+    <div class="footer-last-container-combine">
+      <div class="footer-last-mini-container">
+        <p>
+          &copy;2021 uihut.com &MediumSpace; &MediumSpace; Privacy Terms
+        </p>
+      </div>
+      <div class="footer-last-mini-container">
+        <a href="#">
+          <button>
+            <img src="logos/apple-store.svg" alt="apple store">
+          </button>
+        </a>
+
+        <a href="#">
+          <button>
+            <img src="logos/google-play.svg" alt="google play">
+          </button>
+        </a>
+      </div>
+      <div class="footer-last-mini-container">
+        <a href="#"><img src="icons/facebook-icon.svg" alt="facebook icon"></a>
+        <a href="#"><img src="icons/pinterest-icon.svg" alt="pinterest icon"></a>
+        <a href="#"><img src="icons/twitter-icon.svg" alt="twitter icon"></a>
+        <a href="#"><img src="icons/linkedin-icon.svg" alt="linkedIn icon"></a>
+        <a href="#"><img src="icons/instagram-icon.svg" alt="instagram icon"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/estate.js"></script>
+</body>
+</html>
