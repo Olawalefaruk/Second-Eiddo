@@ -386,7 +386,8 @@ main h2 {
 }
 
 .main-video-container {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("/images/main-video-image.png"), lightgray 0px -59.556px / 100% 137.86% no-repeat;
+  background: url("/images/main-video-image.png");
+  background-repeat: no-repeat;
   background-size: cover; 
 
   display: flex;
@@ -405,7 +406,7 @@ main h2 {
 }
 
 aside {
-  background: url("/images/top-ellipse.png"), url("/images/bottom-ellipse.png"),linear-gradient(180deg, #ADE7FF 0%, #D3F0FC 100%), linear-gradient(180deg, #ADE7FF 0%, #D3F0FC 100%);
+  background: url("/images/top-ellipse.png"), url("/images/bottom-ellipse.png");
   background-position: top left, bottom right;
   background-repeat: no-repeat;
 

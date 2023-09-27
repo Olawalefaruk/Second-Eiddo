@@ -383,15 +383,8 @@
   }
 
   .main-video-container {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("/images/main-video-image.png"), lightgray 0px -59.556px / 100% 137.86% no-repeat;
-    background-size: cover; 
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 73.125rem;
     height: 35.75rem;
-    flex-shrink: 0;
   }
 
   .main-video-container img {
