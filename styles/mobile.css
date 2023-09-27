@@ -386,10 +386,9 @@ main h2 {
 }
 
 .main-video-container {
-  background: url("/images/main-video-image.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("/images/main-video-image.png"), lightgray 0px -59.556px / 100% 137.86% no-repeat;
   background-repeat: no-repeat;
   background-size: cover; 
-  background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
 
   display: flex;
   align-items: center;
